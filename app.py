@@ -50,7 +50,7 @@ def admin_login():
 
 @app.route('/admin/dashboard')
 def admin_dashboard():
-    info = GetIPv4Info("163.53.200.54").get_intruder_info()
-    ip = "163.53.200.54"
+    info = GetIPv4Info(request.remote_addr).get_intruder_info()
+    ip = request.remote_addr
 
     return render_template("admin_dashboard.html", intruder_ip=ip, info=info)
