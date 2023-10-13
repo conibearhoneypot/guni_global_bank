@@ -1,0 +1,35 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Dark background color */
+    color: #ffffff; /* Text color */
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #3498db; /* Blue color for h1 */
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #3498db; /* Blue color for h2 */
+}
+
+p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Add some padding and center content */
+.container {
+    padding: 20px;
+    text-align: center;
+}
